@@ -1,0 +1,65 @@
+/* index.css */
+    /* 
+    #2a8e9e
+    #e9f3f4
+    #180d39
+    */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+nav {
+    
+    padding: 10px;
+    border-radius: 5px;
+}
+.logo {
+    position: absolute;
+    left: 5%;
+    font-size: 24px;
+    color: #1d1e20;
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2% 0 0 25%;
+    display: flex;
+    gap: 50px;
+}
+.singnlogin {
+    position: absolute;
+    top: 1%;
+    left:55%;
+    gap: 30px;
+}
+
+.singnlogin button {
+    background-color: #2a8e9e;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #e9f3f4;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#lgn {
+    background:transparent;
+    color: #2a8e9e;
+}
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+nav ul li i {
+    margin-right: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #1d1e20;
+
+}
+
